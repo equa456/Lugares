@@ -7,6 +7,8 @@ buildscript {
     }
     dependencies {
         classpath 'com.google.gms:google-services:4.3.10'
+        //Para poder pasar argumentos en la navegación entre fragmentos
+        classpath 'androidx.navigation:navigation-safe-args-gradle-plugin:2.5.0-rc01'
     }
 }
 
