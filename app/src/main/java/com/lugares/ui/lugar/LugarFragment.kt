@@ -19,7 +19,7 @@ class LugarFragment : Fragment() {
     private lateinit var  lugarViewModel: LugarViewModel
 
     private var _binding: FragmentLugarBinding? = null
-    private val binding get() = _binding!!
+	 private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
